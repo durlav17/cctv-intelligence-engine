@@ -1,0 +1,437 @@
+{
+  "session": {
+    "video_path": "data/test_single_person.mp4",
+    "model": "yolov8n.pt",
+    "tracker": "botsort.yaml",
+    "source_fps": 25.0,
+    "resolution": "600x680",
+    "frames_processed": 341,
+    "avg_processing_fps": 17.57
+  },
+  "tracks": [
+    {
+      "tracker_id": 2,
+      "label": "P02",
+      "class_name": "person",
+      "first_seen_frame": 0,
+      "last_seen_frame": 22,
+      "first_seen_timestamp": 0.0,
+      "last_seen_timestamp": 0.88,
+      "confidence": 0.49114906787872314,
+      "bbox": [
+        370,
+        0,
+        418,
+        34
+      ],
+      "frames_tracked": 20,
+      "state": "terminated",
+      "frames_since_seen": 31,
+      "events": [
+        [
+          "created",
+          0
+        ],
+        [
+          "lost",
+          18
+        ],
+        [
+          "reacquired",
+          21
+        ],
+        [
+          "lost",
+          23
+        ],
+        [
+          "terminated",
+          53
+        ]
+      ],
+      "duration_seconds": 0.88
+    },
+    {
+      "tracker_id": 1,
+      "label": "P01",
+      "class_name": "person",
+      "first_seen_frame": 0,
+      "last_seen_frame": 26,
+      "first_seen_timestamp": 0.0,
+      "last_seen_timestamp": 1.04,
+      "confidence": 0.495890349149704,
+      "bbox": [
+        550,
+        1,
+        600,
+        231
+      ],
+      "frames_tracked": 27,
+      "state": "terminated",
+      "frames_since_seen": 31,
+      "events": [
+        [
+          "created",
+          0
+        ],
+        [
+          "lost",
+          27
+        ],
+        [
+          "terminated",
+          57
+        ]
+      ],
+      "duration_seconds": 1.04
+    },
+    {
+      "tracker_id": 3,
+      "label": "P03",
+      "class_name": "person",
+      "first_seen_frame": 0,
+      "last_seen_frame": 340,
+      "first_seen_timestamp": 0.0,
+      "last_seen_timestamp": 13.6,
+      "confidence": 0.8102750778198242,
+      "bbox": [
+        39,
+        262,
+        143,
+        508
+      ],
+      "frames_tracked": 306,
+      "state": "terminated",
+      "frames_since_seen": 0,
+      "events": [
+        [
+          "created",
+          0
+        ],
+        [
+          "lost",
+          3
+        ],
+        [
+          "reacquired",
+          7
+        ],
+        [
+          "lost",
+          9
+        ],
+        [
+          "reacquired",
+          11
+        ],
+        [
+          "lost",
+          16
+        ],
+        [
+          "reacquired",
+          17
+        ],
+        [
+          "lost",
+          22
+        ],
+        [
+          "reacquired",
+          27
+        ],
+        [
+          "lost",
+          32
+        ],
+        [
+          "reacquired",
+          34
+        ],
+        [
+          "lost",
+          37
+        ],
+        [
+          "reacquired",
+          38
+        ],
+        [
+          "lost",
+          63
+        ],
+        [
+          "reacquired",
+          65
+        ],
+        [
+          "lost",
+          183
+        ],
+        [
+          "reacquired",
+          184
+        ],
+        [
+          "lost",
+          187
+        ],
+        [
+          "reacquired",
+          193
+        ],
+        [
+          "lost",
+          197
+        ],
+        [
+          "reacquired",
+          198
+        ],
+        [
+          "lost",
+          313
+        ],
+        [
+          "reacquired",
+          323
+        ],
+        [
+          "terminated_end_of_video",
+          340
+        ]
+      ],
+      "duration_seconds": 13.6
+    },
+    {
+      "tracker_id": 5,
+      "label": "P04",
+      "class_name": "person",
+      "first_seen_frame": 38,
+      "last_seen_frame": 125,
+      "first_seen_timestamp": 1.52,
+      "last_seen_timestamp": 5.0,
+      "confidence": 0.45555976033210754,
+      "bbox": [
+        573,
+        70,
+        600,
+        210
+      ],
+      "frames_tracked": 82,
+      "state": "terminated",
+      "frames_since_seen": 31,
+      "events": [
+        [
+          "created",
+          38
+        ],
+        [
+          "lost",
+          66
+        ],
+        [
+          "reacquired",
+          72
+        ],
+        [
+          "lost",
+          126
+        ],
+        [
+          "terminated",
+          156
+        ]
+      ],
+      "duration_seconds": 3.48
+    },
+    {
+      "tracker_id": 8,
+      "label": "P05",
+      "class_name": "person",
+      "first_seen_frame": 48,
+      "last_seen_frame": 340,
+      "first_seen_timestamp": 1.92,
+      "last_seen_timestamp": 13.6,
+      "confidence": 0.8970514535903931,
+      "bbox": [
+        231,
+        519,
+        396,
+        679
+      ],
+      "frames_tracked": 273,
+      "state": "terminated",
+      "frames_since_seen": 0,
+      "events": [
+        [
+          "created",
+          48
+        ],
+        [
+          "lost",
+          49
+        ],
+        [
+          "reacquired",
+          52
+        ],
+        [
+          "lost",
+          55
+        ],
+        [
+          "reacquired",
+          62
+        ],
+        [
+          "lost",
+          107
+        ],
+        [
+          "reacquired",
+          117
+        ],
+        [
+          "terminated_end_of_video",
+          340
+        ]
+      ],
+      "duration_seconds": 11.68
+    },
+    {
+      "tracker_id": 10,
+      "label": "P06",
+      "class_name": "person",
+      "first_seen_frame": 71,
+      "last_seen_frame": 76,
+      "first_seen_timestamp": 2.84,
+      "last_seen_timestamp": 3.04,
+      "confidence": 0.46018320322036743,
+      "bbox": [
+        18,
+        0,
+        62,
+        21
+      ],
+      "frames_tracked": 2,
+      "state": "terminated",
+      "frames_since_seen": 31,
+      "events": [
+        [
+          "created",
+          71
+        ],
+        [
+          "lost",
+          72
+        ],
+        [
+          "reacquired",
+          76
+        ],
+        [
+          "lost",
+          77
+        ],
+        [
+          "terminated",
+          107
+        ]
+      ],
+      "duration_seconds": 0.2
+    },
+    {
+      "tracker_id": 13,
+      "label": "P07",
+      "class_name": "person",
+      "first_seen_frame": 174,
+      "last_seen_frame": 237,
+      "first_seen_timestamp": 6.96,
+      "last_seen_timestamp": 9.48,
+      "confidence": 0.44877585768699646,
+      "bbox": [
+        433,
+        235,
+        521,
+        484
+      ],
+      "frames_tracked": 12,
+      "state": "terminated",
+      "frames_since_seen": 31,
+      "events": [
+        [
+          "created",
+          174
+        ],
+        [
+          "lost",
+          177
+        ],
+        [
+          "reacquired",
+          202
+        ],
+        [
+          "lost",
+          207
+        ],
+        [
+          "reacquired",
+          210
+        ],
+        [
+          "lost",
+          211
+        ],
+        [
+          "reacquired",
+          235
+        ],
+        [
+          "lost",
+          238
+        ],
+        [
+          "terminated",
+          268
+        ]
+      ],
+      "duration_seconds": 2.52
+    },
+    {
+      "tracker_id": 15,
+      "label": "P08",
+      "class_name": "person",
+      "first_seen_frame": 210,
+      "last_seen_frame": 284,
+      "first_seen_timestamp": 8.4,
+      "last_seen_timestamp": 11.36,
+      "confidence": 0.7672730088233948,
+      "bbox": [
+        542,
+        0,
+        592,
+        52
+      ],
+      "frames_tracked": 75,
+      "state": "terminated",
+      "frames_since_seen": 31,
+      "events": [
+        [
+          "created",
+          210
+        ],
+        [
+          "lost",
+          285
+        ],
+        [
+          "terminated",
+          315
+        ]
+      ],
+      "duration_seconds": 2.96
+    }
+  ]
+}
