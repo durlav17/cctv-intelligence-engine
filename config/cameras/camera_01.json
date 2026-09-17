@@ -1,0 +1,7 @@
+{
+  "camera_id": "camera_01",
+  "counting_line": 540,
+  "entry_direction": "TOP_TO_BOTTOM",
+  "deadband": 10,
+  "short_visit_seconds": 1.0
+}

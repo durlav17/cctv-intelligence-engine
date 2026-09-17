@@ -1,5 +1,61 @@
 # Changelog
 
+## [Phase 3] - 2026-09-16
+
+### Added
+- `src/counting.py`: spatial reasoning, no OpenCV/YOLO
+  - `reference_point()` - bottom-center of the box (feet on the ground plane)
+  - `CameraConfig` - counting line, deadband, entry direction, per camera
+  - `LineCrossingDetector` - per-track side state machine -> `CrossingEvent`
+  - Hysteresis: an ABOVE/BUFFER/BELOW band so jitter around the line cannot
+    emit repeated events; one traversal produces exactly one event
+- `src/sessions.py`: state that outlives a frame, no OpenCV/YOLO
+  - `OccupancyState` - entries, exits, occupancy (clamped at 0), unmatched exits
+  - `VisitSession` / `SessionManager` - ACTIVE, COMPLETED, OPEN_AT_END,
+    OPEN_TRACK_LOST, UNMATCHED_EXIT, with documented policies for all ten
+    edge cases
+  - Track loss is explicitly NOT treated as an exit
+- `tests/test_counting.py`, `tests/test_sessions.py`: 43 stdlib unittest cases
+  covering every spatial and session rule without YOLO, OpenCV or a video
+- `docs/experiments.md`: Phase 3 section with measured results
+
+### Changed
+- `src/track_people.py`: wires the new modules into the existing frame loop;
+  draws the counting line, reference points and crossing banners; HUD gains
+  Entries / Exits / Occupancy; prints a COUNTING SUMMARY
+- New flags: `--line`, `--deadband`, `--entry-direction`, `--short-visit`,
+  `--events`, `--sessions`, `--debug`, `--no-counting`
+- `run_tracking()` now returns a dict instead of the bare registry
+
+### Unchanged
+- `src/tracking.py` and `src/detect.py` - not modified. Phase 3 is a read-only
+  consumer of Track objects, so tracking behaviour is unaffected
+  (verified: 88 unique track IDs with and without counting)
+
+### Measured (1920x1080 @ 25fps, 341 frames, line y=540, deadband 10)
+- 18 crossing events: 10 entries, 8 exits, final occupancy 4, 2 unmatched exits
+- 0 completed sessions - the sample video is a thoroughfare, not a doorway
+- Phase 2 baseline 12.37 fps vs Phase 3 12.23 fps: ~1% difference, within
+  run-to-run noise
+- No ground truth exists for this footage, so no accuracy metric is claimed
+- Detail: `docs/experiments.md`
+
+### Added later in Phase 3
+- `config/cameras/camera_01.json` + `config/cameras/README.md`: per-camera
+  geometry as data, loaded with `--camera-config`. Unknown keys are rejected,
+  CLI flags override the file.
+- `CameraConfig.from_dict()` / `.from_json_file()` / `.to_dict()`
+- `CameraConfig.name` renamed to `camera_id`; carried into every event and
+  session record (JSON key `camera_id` in the session header)
+- Explicit first-sighting policy: `INITIAL_VISIBLE` -> `OBSERVED_CROSSING`
+  on `TrackSideState`, with `first_seen_side` and `status_counts()`
+- `--video` as an alternative to the positional video argument
+- `tests/test_camera_config.py`: 16 more tests (59 total)
+
+### Still not implemented
+- Zones, dwell time, ReID, cross-day identity, visitor categories,
+  PostgreSQL, FastAPI, dashboard, face recognition, biometrics
+
 ## [Phase 2] - 2026-09-16
 
 ### Added

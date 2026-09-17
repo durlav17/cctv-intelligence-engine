@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>2218785</id>
+      <size>321</size>
+      <mode>interpolation</mode>
+      <overlap>5</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-03-19 11:07:20.565348+00:00</created>
+      <updated>2025-03-19 11:16:33.979874+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>320</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>2221196</id>
+          <start>0</start>
+          <stop>320</stop>
+          <url>https://app.cvat.ai/api/jobs/2218785</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>harin</username>
+        <email>harinbs@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>person</name>
+          <color>#c06060</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>Cross</name>
+              <mutable>True</mutable>
+              <input_type>text</input_type>
+              <default_value>not crossing</default_value>
+              <values>not crossing</values>
+            </attribute>
+            <attribute>
+              <name>moving status</name>
+              <mutable>True</mutable>
+              <input_type>text</input_type>
+              <default_value>walking</default_value>
+              <values>walking</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2025-03-19 11:16:44.790650+00:00</dumped>
+    <original_size>
+      <width>1920</width>
+      <height>1080</height>
+    </original_size>
+  </meta>
+  <track id="0" label="person" source="manual">
+    <box frame="100" keyframe="1" outside="0" occluded="0" xtl="1173.80" ytl="664.81" xbr="1216.57" ybr="798.48" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="101" keyframe="0" outside="0" occluded="0" xtl="1174.52" ytl="664.46" xbr="1217.29" ybr="798.12" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="102" keyframe="0" outside="0" occluded="0" xtl="1175.23" ytl="664.10" xbr="1218.00" ybr="797.76" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="103" keyframe="0" outside="0" occluded="0" xtl="1175.94" ytl="663.74" xbr="1218.71" ybr="797.41" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="104" keyframe="0" outside="0" occluded="0" xtl="1176.65" ytl="663.39" xbr="1219.43" ybr="797.05" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="105" keyframe="0" outside="0" occluded="0" xtl="1177.37" ytl="663.03" xbr="1220.14" ybr="796.69" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="106" keyframe="0" outside="0" occluded="0" xtl="1178.08" ytl="662.67" xbr="1220.85" ybr="796.34" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="107" keyframe="0" outside="0" occluded="0" xtl="1178.79" ytl="662.32" xbr="1221.57" ybr="795.98" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="108" keyframe="0" outside="0" occluded="0" xtl="1179.51" ytl="661.96" xbr="1222.28" ybr="795.62" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="109" keyframe="0" outside="0" occluded="0" xtl="1180.22" ytl="661.60" xbr="1222.99" ybr="795.27" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="110" keyframe="1" outside="0" occluded="0" xtl="1180.93" ytl="661.25" xbr="1223.70" ybr="794.91" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="111" keyframe="0" outside="0" occluded="0" xtl="1181.33" ytl="660.85" xbr="1224.10" ybr="797.29" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="112" keyframe="0" outside="0" occluded="0" xtl="1181.72" ytl="660.46" xbr="1224.50" ybr="799.66" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="113" keyframe="0" outside="0" occluded="0" xtl="1182.12" ytl="660.06" xbr="1224.89" ybr="802.04" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="114" keyframe="0" outside="0" occluded="0" xtl="1182.52" ytl="659.66" xbr="1225.29" ybr="804.42" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="115" keyframe="0" outside="0" occluded="0" xtl="1182.91" ytl="659.27" xbr="1225.68" ybr="806.79" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="116" keyframe="0" outside="0" occluded="0" xtl="1183.31" ytl="658.87" xbr="1226.08" ybr="809.17" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="117" keyframe="0" outside="0" occluded="0" xtl="1183.70" ytl="658.48" xbr="1226.48" ybr="811.55" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="118" keyframe="0" outside="0" occluded="0" xtl="1184.10" ytl="658.08" xbr="1226.87" ybr="813.92" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="119" keyframe="1" outside="0" occluded="0" xtl="1184.50" ytl="657.68" xbr="1227.27" ybr="816.30" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="120" keyframe="0" outside="0" occluded="0" xtl="1186.53" ytl="657.68" xbr="1229.31" ybr="816.30" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="121" keyframe="0" outside="0" occluded="0" xtl="1188.57" ytl="657.68" xbr="1231.34" ybr="816.30" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="122" keyframe="0" outside="0" occluded="0" xtl="1190.61" ytl="657.68" xbr="1233.38" ybr="816.30" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="123" keyframe="0" outside="0" occluded="0" xtl="1192.64" ytl="657.68" xbr="1235.42" ybr="816.30" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="124" keyframe="0" outside="0" occluded="0" xtl="1194.68" ytl="657.68" xbr="1237.45" ybr="816.30" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="125" keyframe="0" outside="0" occluded="0" xtl="1196.72" ytl="657.68" xbr="1239.49" ybr="816.30" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="126" keyframe="1" outside="0" occluded="0" xtl="1198.75" ytl="657.68" xbr="1241.53" ybr="816.30" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="127" keyframe="0" outside="0" occluded="0" xtl="1201.43" ytl="657.68" xbr="1244.20" ybr="816.30" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="128" keyframe="0" outside="0" occluded="0" xtl="1204.10" ytl="657.68" xbr="1246.87" ybr="816.30" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="129" keyframe="0" outside="0" occluded="0" xtl="1206.77" ytl="657.68" xbr="1249.55" ybr="816.30" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="130" keyframe="1" outside="0" occluded="0" xtl="1209.45" ytl="657.68" xbr="1252.22" ybr="816.30" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="131" keyframe="0" outside="0" occluded="0" xtl="1211.59" ytl="656.61" xbr="1254.36" ybr="818.80" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="132" keyframe="0" outside="0" occluded="0" xtl="1213.72" ytl="655.54" xbr="1256.50" ybr="821.30" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="133" keyframe="0" outside="0" occluded="0" xtl="1215.86" ytl="654.48" xbr="1258.64" ybr="823.80" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="134" keyframe="0" outside="0" occluded="0" xtl="1218.00" ytl="653.41" xbr="1260.77" ybr="826.30" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="135" keyframe="1" outside="0" occluded="0" xtl="1220.14" ytl="652.34" xbr="1262.91" ybr="828.80" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="136" keyframe="0" outside="0" occluded="0" xtl="1221.63" ytl="651.45" xbr="1264.40" ybr="830.88" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="137" keyframe="0" outside="0" occluded="0" xtl="1223.11" ytl="650.55" xbr="1265.88" ybr="832.97" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="138" keyframe="0" outside="0" occluded="0" xtl="1224.60" ytl="649.66" xbr="1267.37" ybr="835.05" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="139" keyframe="0" outside="0" occluded="0" xtl="1226.08" ytl="648.77" xbr="1268.85" ybr="837.13" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="140" keyframe="0" outside="0" occluded="0" xtl="1227.57" ytl="647.88" xbr="1270.34" ybr="839.22" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="141" keyframe="1" outside="0" occluded="0" xtl="1229.05" ytl="646.99" xbr="1271.82" ybr="841.30" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="142" keyframe="0" outside="0" occluded="0" xtl="1229.05" ytl="646.99" xbr="1271.82" ybr="841.30" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="143" keyframe="0" outside="0" occluded="0" xtl="1229.05" ytl="646.99" xbr="1271.82" ybr="841.30" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="144" keyframe="0" outside="0" occluded="0" xtl="1229.05" ytl="646.99" xbr="1271.82" ybr="841.30" z_order="0">
+      <attribute name="Cross">not crossing</attribute>
+      <attribute name="moving status">standing</attribute>
+    </box>
+    <box frame="145" keyframe="1" outside="0" occluded="0" xtl="1229.05" ytl="646.99" xbr="1271.82" ybr="841.30" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="146" keyframe="0" outside="0" occluded="0" xtl="1232.02" ytl="646.99" xbr="1274.79" ybr="841.30" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="147" keyframe="0" outside="0" occluded="0" xtl="1234.99" ytl="646.99" xbr="1277.76" ybr="841.30" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="148" keyframe="1" outside="0" occluded="0" xtl="1237.96" ytl="646.99" xbr="1280.73" ybr="841.30" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="149" keyframe="0" outside="0" occluded="0" xtl="1240.41" ytl="647.44" xbr="1283.18" ybr="845.75" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="150" keyframe="0" outside="0" occluded="0" xtl="1242.86" ytl="647.88" xbr="1285.64" ybr="850.20" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="151" keyframe="0" outside="0" occluded="0" xtl="1245.31" ytl="648.33" xbr="1288.09" ybr="854.65" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="152" keyframe="0" outside="0" occluded="0" xtl="1247.76" ytl="648.77" xbr="1290.54" ybr="859.10" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="153" keyframe="0" outside="0" occluded="0" xtl="1250.21" ytl="649.22" xbr="1292.99" ybr="863.55" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="154" keyframe="0" outside="0" occluded="0" xtl="1252.67" ytl="649.66" xbr="1295.44" ybr="868.00" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="155" keyframe="0" outside="0" occluded="0" xtl="1255.12" ytl="650.11" xbr="1297.89" ybr="872.45" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="156" keyframe="1" outside="0" occluded="0" xtl="1257.57" ytl="650.55" xbr="1300.34" ybr="876.90" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="157" keyframe="0" outside="0" occluded="0" xtl="1257.57" ytl="650.55" xbr="1303.55" ybr="876.90" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="158" keyframe="0" outside="0" occluded="0" xtl="1257.57" ytl="650.55" xbr="1306.76" ybr="876.90" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="159" keyframe="0" outside="0" occluded="0" xtl="1257.57" ytl="650.55" xbr="1309.98" ybr="876.90" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="160" keyframe="0" outside="0" occluded="0" xtl="1257.57" ytl="650.55" xbr="1313.19" ybr="876.90" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="161" keyframe="1" outside="0" occluded="0" xtl="1257.57" ytl="650.55" xbr="1316.40" ybr="876.90" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="162" keyframe="0" outside="0" occluded="0" xtl="1260.83" ytl="649.66" xbr="1319.67" ybr="879.57" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="163" keyframe="0" outside="0" occluded="0" xtl="1264.10" ytl="648.77" xbr="1322.93" ybr="882.23" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="164" keyframe="0" outside="0" occluded="0" xtl="1267.37" ytl="647.88" xbr="1326.20" ybr="884.90" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="165" keyframe="0" outside="0" occluded="0" xtl="1270.64" ytl="646.99" xbr="1329.47" ybr="887.57" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="166" keyframe="0" outside="0" occluded="0" xtl="1273.90" ytl="646.10" xbr="1332.74" ybr="890.23" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="167" keyframe="1" outside="0" occluded="0" xtl="1277.17" ytl="645.21" xbr="1336.00" ybr="892.90" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="168" keyframe="0" outside="0" occluded="0" xtl="1283.23" ytl="643.78" xbr="1342.06" ybr="896.82" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="169" keyframe="0" outside="0" occluded="0" xtl="1289.29" ytl="642.36" xbr="1348.12" ybr="900.74" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="170" keyframe="0" outside="0" occluded="0" xtl="1295.35" ytl="640.93" xbr="1354.18" ybr="904.66" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="171" keyframe="0" outside="0" occluded="0" xtl="1301.41" ytl="639.51" xbr="1360.24" ybr="908.58" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="172" keyframe="1" outside="0" occluded="0" xtl="1307.47" ytl="638.08" xbr="1366.30" ybr="912.50" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="173" keyframe="0" outside="0" occluded="0" xtl="1311.92" ytl="634.96" xbr="1370.76" ybr="911.60" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="174" keyframe="0" outside="0" occluded="0" xtl="1316.38" ytl="631.84" xbr="1375.21" ybr="910.70" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="175" keyframe="0" outside="0" occluded="0" xtl="1320.83" ytl="628.72" xbr="1379.67" ybr="909.80" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="176" keyframe="1" outside="0" occluded="0" xtl="1325.29" ytl="625.60" xbr="1384.12" ybr="908.90" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="177" keyframe="0" outside="0" occluded="0" xtl="1325.29" ytl="625.60" xbr="1390.82" ybr="913.80" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="178" keyframe="0" outside="0" occluded="0" xtl="1325.29" ytl="625.60" xbr="1397.51" ybr="918.70" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="179" keyframe="0" outside="0" occluded="0" xtl="1325.29" ytl="625.60" xbr="1404.21" ybr="923.60" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="180" keyframe="1" outside="0" occluded="0" xtl="1325.29" ytl="625.60" xbr="1410.90" ybr="928.50" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="181" keyframe="0" outside="0" occluded="0" xtl="1325.29" ytl="623.52" xbr="1419.82" ybr="931.77" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="182" keyframe="0" outside="0" occluded="0" xtl="1325.29" ytl="621.44" xbr="1428.73" ybr="935.03" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="183" keyframe="0" outside="0" occluded="0" xtl="1325.29" ytl="619.35" xbr="1437.65" ybr="938.30" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="184" keyframe="0" outside="0" occluded="0" xtl="1325.29" ytl="617.27" xbr="1446.57" ybr="941.57" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="185" keyframe="0" outside="0" occluded="0" xtl="1325.29" ytl="615.18" xbr="1455.48" ybr="944.83" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="186" keyframe="1" outside="0" occluded="0" xtl="1325.29" ytl="613.10" xbr="1464.40" ybr="948.10" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="187" keyframe="0" outside="0" occluded="0" xtl="1327.96" ytl="611.02" xbr="1473.60" ybr="952.55" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="188" keyframe="0" outside="0" occluded="0" xtl="1330.64" ytl="608.94" xbr="1482.80" ybr="957.00" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="189" keyframe="0" outside="0" occluded="0" xtl="1333.31" ytl="606.86" xbr="1492.00" ybr="961.45" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="190" keyframe="0" outside="0" occluded="0" xtl="1335.98" ytl="604.78" xbr="1501.20" ybr="965.90" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="191" keyframe="0" outside="0" occluded="0" xtl="1338.65" ytl="602.70" xbr="1510.40" ybr="970.35" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="192" keyframe="1" outside="0" occluded="0" xtl="1341.33" ytl="600.62" xbr="1519.60" ybr="974.80" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="193" keyframe="0" outside="0" occluded="0" xtl="1344.30" ytl="596.76" xbr="1522.57" ybr="976.88" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="194" keyframe="0" outside="0" occluded="0" xtl="1347.27" ytl="592.90" xbr="1525.54" ybr="978.97" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="195" keyframe="0" outside="0" occluded="0" xtl="1350.24" ytl="589.04" xbr="1528.51" ybr="981.05" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="196" keyframe="0" outside="0" occluded="0" xtl="1353.21" ytl="585.18" xbr="1531.48" ybr="983.13" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="197" keyframe="0" outside="0" occluded="0" xtl="1356.18" ytl="581.32" xbr="1534.45" ybr="985.22" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="198" keyframe="1" outside="0" occluded="0" xtl="1359.15" ytl="577.46" xbr="1537.42" ybr="987.30" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="199" keyframe="0" outside="0" occluded="0" xtl="1374.00" ytl="571.52" xbr="1551.68" ybr="981.36" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="200" keyframe="0" outside="0" occluded="0" xtl="1388.85" ytl="565.57" xbr="1565.94" ybr="975.42" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="201" keyframe="1" outside="0" occluded="0" xtl="1403.70" ytl="559.63" xbr="1580.19" ybr="969.48" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="202" keyframe="0" outside="0" occluded="0" xtl="1410.83" ytl="554.73" xbr="1594.90" ybr="967.68" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="203" keyframe="0" outside="0" occluded="0" xtl="1417.96" ytl="549.83" xbr="1609.60" ybr="965.89" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="204" keyframe="0" outside="0" occluded="0" xtl="1425.09" ytl="544.93" xbr="1624.30" ybr="964.09" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="205" keyframe="1" outside="0" occluded="0" xtl="1432.21" ytl="540.03" xbr="1639.00" ybr="962.30" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="206" keyframe="0" outside="0" occluded="0" xtl="1443.26" ytl="534.33" xbr="1655.76" ybr="959.44" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="207" keyframe="0" outside="0" occluded="0" xtl="1454.31" ytl="528.62" xbr="1672.52" ybr="956.58" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="208" keyframe="0" outside="0" occluded="0" xtl="1465.36" ytl="522.92" xbr="1689.28" ybr="953.72" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="209" keyframe="0" outside="0" occluded="0" xtl="1476.41" ytl="517.22" xbr="1706.04" ybr="950.86" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="210" keyframe="1" outside="0" occluded="0" xtl="1487.46" ytl="511.51" xbr="1722.80" ybr="948.00" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="211" keyframe="1" outside="0" occluded="0" xtl="1517.76" ytl="506.17" xbr="1753.10" ybr="942.65" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="212" keyframe="0" outside="0" occluded="0" xtl="1538.79" ytl="501.53" xbr="1774.13" ybr="941.22" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="213" keyframe="0" outside="0" occluded="0" xtl="1559.82" ytl="496.90" xbr="1795.16" ybr="939.79" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="214" keyframe="0" outside="0" occluded="0" xtl="1580.85" ytl="492.27" xbr="1816.19" ybr="938.36" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="215" keyframe="0" outside="0" occluded="0" xtl="1601.88" ytl="487.63" xbr="1837.22" ybr="936.93" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="216" keyframe="1" outside="0" occluded="0" xtl="1622.91" ytl="483.00" xbr="1858.25" ybr="935.50" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="217" keyframe="0" outside="0" occluded="0" xtl="1643.11" ytl="469.93" xbr="1878.44" ybr="944.40" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="218" keyframe="0" outside="0" occluded="0" xtl="1663.31" ytl="456.86" xbr="1898.64" ybr="953.30" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="219" keyframe="1" outside="0" occluded="0" xtl="1683.50" ytl="443.79" xbr="1918.84" ybr="962.20" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="220" keyframe="0" outside="0" occluded="0" xtl="1704.30" ytl="429.54" xbr="1919.23" ybr="964.57" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="221" keyframe="0" outside="0" occluded="0" xtl="1725.10" ytl="415.28" xbr="1919.61" ybr="966.93" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="222" keyframe="1" outside="0" occluded="0" xtl="1745.90" ytl="401.02" xbr="1920.00" ybr="969.30" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+    <box frame="223" keyframe="1" outside="1" occluded="0" xtl="1744.12" ytl="401.02" xbr="1918.22" ybr="969.30" z_order="0">
+      <attribute name="moving status">walking</attribute>
+      <attribute name="Cross">crossing</attribute>
+    </box>
+  </track>
+  <track id="1" label="person" source="manual">
+    <box frame="141" keyframe="1" outside="0" occluded="0" xtl="1268.26" ytl="646.99" xbr="1319.94" ybr="844.81" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="142" keyframe="0" outside="0" occluded="0" xtl="1268.26" ytl="646.99" xbr="1319.94" ybr="844.81" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="143" keyframe="0" outside="0" occluded="0" xtl="1268.26" ytl="646.99" xbr="1319.94" ybr="844.81" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="144" keyframe="0" outside="0" occluded="0" xtl="1268.26" ytl="646.99" xbr="1319.94" ybr="844.81" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="145" keyframe="1" outside="0" occluded="0" xtl="1268.26" ytl="646.99" xbr="1319.94" ybr="844.81" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="146" keyframe="0" outside="0" occluded="0" xtl="1272.42" ytl="646.99" xbr="1324.10" ybr="847.17" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="147" keyframe="0" outside="0" occluded="0" xtl="1276.57" ytl="646.99" xbr="1328.26" ybr="849.54" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="148" keyframe="1" outside="0" occluded="0" xtl="1280.73" ytl="646.99" xbr="1332.42" ybr="851.90" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="149" keyframe="0" outside="0" occluded="0" xtl="1282.74" ytl="646.32" xbr="1337.54" ybr="855.24" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="150" keyframe="0" outside="0" occluded="0" xtl="1284.74" ytl="645.65" xbr="1342.66" ybr="858.58" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="151" keyframe="0" outside="0" occluded="0" xtl="1286.75" ytl="644.99" xbr="1347.78" ybr="861.91" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="152" keyframe="0" outside="0" occluded="0" xtl="1288.75" ytl="644.32" xbr="1352.91" ybr="865.25" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="153" keyframe="0" outside="0" occluded="0" xtl="1290.76" ytl="643.65" xbr="1358.03" ybr="868.59" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="154" keyframe="0" outside="0" occluded="0" xtl="1292.76" ytl="642.98" xbr="1363.15" ybr="871.93" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="155" keyframe="0" outside="0" occluded="0" xtl="1294.77" ytl="642.31" xbr="1368.28" ybr="875.26" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="156" keyframe="1" outside="0" occluded="0" xtl="1296.77" ytl="641.64" xbr="1373.40" ybr="878.60" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="157" keyframe="0" outside="0" occluded="0" xtl="1300.69" ytl="640.58" xbr="1377.32" ybr="881.80" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="158" keyframe="0" outside="0" occluded="0" xtl="1304.61" ytl="639.51" xbr="1381.24" ybr="885.00" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="159" keyframe="0" outside="0" occluded="0" xtl="1308.53" ytl="638.44" xbr="1385.16" ybr="888.20" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="160" keyframe="0" outside="0" occluded="0" xtl="1312.46" ytl="637.37" xbr="1389.08" ybr="891.40" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="161" keyframe="1" outside="0" occluded="0" xtl="1316.38" ytl="636.30" xbr="1393.00" ybr="894.60" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="162" keyframe="0" outside="0" occluded="0" xtl="1319.94" ytl="635.41" xbr="1396.57" ybr="898.77" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="163" keyframe="0" outside="0" occluded="0" xtl="1323.50" ytl="634.52" xbr="1400.13" ybr="902.93" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="164" keyframe="0" outside="0" occluded="0" xtl="1327.07" ytl="633.62" xbr="1403.70" ybr="907.10" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="165" keyframe="0" outside="0" occluded="0" xtl="1330.63" ytl="632.73" xbr="1407.26" ybr="911.27" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="166" keyframe="0" outside="0" occluded="0" xtl="1334.20" ytl="631.84" xbr="1410.82" ybr="915.43" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="167" keyframe="1" outside="0" occluded="0" xtl="1337.76" ytl="630.95" xbr="1414.39" ybr="919.60" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="168" keyframe="0" outside="0" occluded="0" xtl="1343.11" ytl="628.10" xbr="1422.95" ybr="921.38" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="169" keyframe="0" outside="0" occluded="0" xtl="1348.46" ytl="625.25" xbr="1431.51" ybr="923.16" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="170" keyframe="0" outside="0" occluded="0" xtl="1353.80" ytl="622.40" xbr="1440.08" ybr="924.94" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="171" keyframe="0" outside="0" occluded="0" xtl="1359.15" ytl="619.55" xbr="1448.64" ybr="926.72" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="172" keyframe="1" outside="0" occluded="0" xtl="1364.50" ytl="616.69" xbr="1457.20" ybr="928.50" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="173" keyframe="0" outside="0" occluded="0" xtl="1370.29" ytl="614.91" xbr="1466.10" ybr="932.08" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="174" keyframe="0" outside="0" occluded="0" xtl="1376.08" ytl="613.13" xbr="1475.00" ybr="935.65" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="175" keyframe="0" outside="0" occluded="0" xtl="1381.87" ytl="611.35" xbr="1483.90" ybr="939.23" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="176" keyframe="1" outside="0" occluded="0" xtl="1387.66" ytl="609.57" xbr="1492.80" ybr="942.80" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="177" keyframe="0" outside="0" occluded="0" xtl="1392.56" ytl="607.34" xbr="1502.60" ybr="946.80" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="178" keyframe="0" outside="0" occluded="0" xtl="1397.47" ytl="605.11" xbr="1512.40" ybr="950.80" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="179" keyframe="0" outside="0" occluded="0" xtl="1402.37" ytl="602.88" xbr="1522.20" ybr="954.80" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="180" keyframe="1" outside="0" occluded="0" xtl="1407.27" ytl="600.66" xbr="1532.00" ybr="958.80" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="181" keyframe="0" outside="0" occluded="0" xtl="1414.69" ytl="596.79" xbr="1541.20" ybr="960.88" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="182" keyframe="0" outside="0" occluded="0" xtl="1422.12" ytl="592.93" xbr="1550.40" ybr="962.97" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="183" keyframe="0" outside="0" occluded="0" xtl="1429.54" ytl="589.07" xbr="1559.60" ybr="965.05" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="184" keyframe="0" outside="0" occluded="0" xtl="1436.97" ytl="585.21" xbr="1568.80" ybr="967.13" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="185" keyframe="0" outside="0" occluded="0" xtl="1444.40" ytl="581.35" xbr="1578.00" ybr="969.22" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="186" keyframe="1" outside="0" occluded="0" xtl="1451.82" ytl="577.49" xbr="1587.20" ybr="971.30" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="187" keyframe="0" outside="0" occluded="0" xtl="1462.52" ytl="574.81" xbr="1599.38" ybr="971.60" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="188" keyframe="0" outside="0" occluded="0" xtl="1473.21" ytl="572.14" xbr="1611.57" ybr="971.90" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="189" keyframe="0" outside="0" occluded="0" xtl="1483.90" ytl="569.47" xbr="1623.75" ybr="972.20" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="190" keyframe="0" outside="0" occluded="0" xtl="1494.60" ytl="566.79" xbr="1635.93" ybr="972.50" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="191" keyframe="0" outside="0" occluded="0" xtl="1505.29" ytl="564.12" xbr="1648.12" ybr="972.80" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="192" keyframe="1" outside="0" occluded="0" xtl="1515.98" ytl="561.45" xbr="1660.30" ybr="973.10" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="193" keyframe="0" outside="0" occluded="0" xtl="1527.27" ytl="556.10" xbr="1675.75" ybr="970.72" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="194" keyframe="0" outside="0" occluded="0" xtl="1538.56" ytl="550.76" xbr="1691.20" ybr="968.33" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="195" keyframe="0" outside="0" occluded="0" xtl="1549.84" ytl="545.41" xbr="1706.65" ybr="965.95" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="196" keyframe="0" outside="0" occluded="0" xtl="1561.13" ytl="540.06" xbr="1722.10" ybr="963.57" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="197" keyframe="0" outside="0" occluded="0" xtl="1572.42" ytl="534.72" xbr="1737.55" ybr="961.18" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="198" keyframe="1" outside="0" occluded="0" xtl="1583.71" ytl="529.37" xbr="1753.00" ybr="958.80" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="199" keyframe="0" outside="0" occluded="0" xtl="1602.72" ytl="522.24" xbr="1774.40" ybr="958.80" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="200" keyframe="0" outside="0" occluded="0" xtl="1621.73" ytl="515.11" xbr="1795.80" ybr="958.80" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="201" keyframe="1" outside="0" occluded="0" xtl="1640.74" ytl="507.98" xbr="1817.20" ybr="958.80" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="202" keyframe="0" outside="0" occluded="0" xtl="1657.67" ytl="499.52" xbr="1834.13" ybr="958.80" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="203" keyframe="0" outside="0" occluded="0" xtl="1674.60" ytl="491.05" xbr="1851.06" ybr="958.80" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="204" keyframe="0" outside="0" occluded="0" xtl="1691.53" ytl="482.59" xbr="1867.99" ybr="958.80" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="205" keyframe="1" outside="0" occluded="0" xtl="1708.46" ytl="474.12" xbr="1884.92" ybr="958.80" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="206" keyframe="0" outside="0" occluded="0" xtl="1715.94" ytl="470.20" xbr="1891.94" ybr="954.88" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="207" keyframe="0" outside="0" occluded="0" xtl="1723.43" ytl="466.28" xbr="1898.95" ybr="950.96" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="208" keyframe="0" outside="0" occluded="0" xtl="1730.91" ytl="462.36" xbr="1905.97" ybr="947.04" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="209" keyframe="0" outside="0" occluded="0" xtl="1738.40" ytl="458.44" xbr="1912.98" ybr="943.12" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="210" keyframe="1" outside="0" occluded="0" xtl="1745.88" ytl="454.52" xbr="1920.00" ybr="939.20" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+    <box frame="211" keyframe="1" outside="1" occluded="0" xtl="1745.88" ytl="454.52" xbr="1920.00" ybr="939.20" z_order="0">
+      <attribute name="Cross">crossing</attribute>
+      <attribute name="moving status">walking</attribute>
+    </box>
+  </track>
+  <track id="2" label="person" source="manual">
+    <box frame="172" keyframe="1" outside="0" occluded="0" xtl="822.71" ytl="691.55" xbr="872.61" ybr="796.69" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="173" keyframe="0" outside="0" occluded="0" xtl="821.95" ytl="691.67" xbr="871.85" ybr="796.82" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="174" keyframe="0" outside="0" occluded="0" xtl="821.19" ytl="691.80" xbr="871.09" ybr="796.95" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="175" keyframe="0" outside="0" occluded="0" xtl="820.42" ytl="691.93" xbr="870.32" ybr="797.08" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="176" keyframe="0" outside="0" occluded="0" xtl="819.66" ytl="692.05" xbr="869.56" ybr="797.20" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="177" keyframe="0" outside="0" occluded="0" xtl="818.89" ytl="692.18" xbr="868.80" ybr="797.33" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="178" keyframe="0" outside="0" occluded="0" xtl="818.13" ytl="692.31" xbr="868.03" ybr="797.46" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="179" keyframe="0" outside="0" occluded="0" xtl="817.37" ytl="692.44" xbr="867.27" ybr="797.58" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="180" keyframe="0" outside="0" occluded="0" xtl="816.60" ytl="692.56" xbr="866.50" ybr="797.71" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="181" keyframe="0" outside="0" occluded="0" xtl="815.84" ytl="692.69" xbr="865.74" ybr="797.84" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="182" keyframe="0" outside="0" occluded="0" xtl="815.07" ytl="692.82" xbr="864.98" ybr="797.97" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="183" keyframe="0" outside="0" occluded="0" xtl="814.31" ytl="692.95" xbr="864.21" ybr="798.09" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="184" keyframe="0" outside="0" occluded="0" xtl="813.55" ytl="693.07" xbr="863.45" ybr="798.22" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="185" keyframe="0" outside="0" occluded="0" xtl="812.78" ytl="693.20" xbr="862.68" ybr="798.35" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="186" keyframe="1" outside="0" occluded="0" xtl="812.02" ytl="693.33" xbr="861.92" ybr="798.48" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="187" keyframe="0" outside="0" occluded="0" xtl="811.80" ytl="693.62" xbr="861.70" ybr="798.77" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="188" keyframe="0" outside="0" occluded="0" xtl="811.57" ytl="693.92" xbr="861.47" ybr="799.07" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="189" keyframe="0" outside="0" occluded="0" xtl="811.35" ytl="694.22" xbr="861.25" ybr="799.37" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="190" keyframe="0" outside="0" occluded="0" xtl="811.13" ytl="694.52" xbr="861.03" ybr="799.66" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="191" keyframe="0" outside="0" occluded="0" xtl="810.91" ytl="694.81" xbr="860.81" ybr="799.96" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="192" keyframe="0" outside="0" occluded="0" xtl="810.68" ytl="695.11" xbr="860.58" ybr="800.26" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="193" keyframe="0" outside="0" occluded="0" xtl="810.46" ytl="695.41" xbr="860.36" ybr="800.55" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="194" keyframe="0" outside="0" occluded="0" xtl="810.24" ytl="695.70" xbr="860.14" ybr="800.85" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="195" keyframe="0" outside="0" occluded="0" xtl="810.01" ytl="696.00" xbr="859.92" ybr="801.15" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="196" keyframe="0" outside="0" occluded="0" xtl="809.79" ytl="696.30" xbr="859.69" ybr="801.45" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="197" keyframe="0" outside="0" occluded="0" xtl="809.57" ytl="696.59" xbr="859.47" ybr="801.74" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="198" keyframe="0" outside="0" occluded="0" xtl="809.35" ytl="696.89" xbr="859.25" ybr="802.04" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="199" keyframe="0" outside="0" occluded="0" xtl="809.12" ytl="697.19" xbr="859.02" ybr="802.34" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="200" keyframe="0" outside="0" occluded="0" xtl="808.90" ytl="697.49" xbr="858.80" ybr="802.63" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="201" keyframe="0" outside="0" occluded="0" xtl="808.68" ytl="697.78" xbr="858.58" ybr="802.93" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="202" keyframe="0" outside="0" occluded="0" xtl="808.46" ytl="698.08" xbr="858.36" ybr="803.23" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="203" keyframe="0" outside="0" occluded="0" xtl="808.23" ytl="698.38" xbr="858.13" ybr="803.53" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="204" keyframe="0" outside="0" occluded="0" xtl="808.01" ytl="698.67" xbr="857.91" ybr="803.82" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="205" keyframe="0" outside="0" occluded="0" xtl="807.79" ytl="698.97" xbr="857.69" ybr="804.12" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="206" keyframe="0" outside="0" occluded="0" xtl="807.56" ytl="699.27" xbr="857.46" ybr="804.42" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="207" keyframe="0" outside="0" occluded="0" xtl="807.34" ytl="699.56" xbr="857.24" ybr="804.71" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="208" keyframe="0" outside="0" occluded="0" xtl="807.12" ytl="699.86" xbr="857.02" ybr="805.01" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="209" keyframe="0" outside="0" occluded="0" xtl="806.90" ytl="700.16" xbr="856.80" ybr="805.31" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="210" keyframe="1" outside="0" occluded="0" xtl="806.67" ytl="700.46" xbr="856.57" ybr="805.60" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="211" keyframe="0" outside="0" occluded="0" xtl="806.67" ytl="698.48" xbr="856.57" ybr="806.99" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="212" keyframe="0" outside="0" occluded="0" xtl="806.67" ytl="696.50" xbr="856.57" ybr="808.38" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="213" keyframe="0" outside="0" occluded="0" xtl="806.67" ytl="694.52" xbr="856.57" ybr="809.77" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="214" keyframe="0" outside="0" occluded="0" xtl="806.67" ytl="692.54" xbr="856.57" ybr="811.16" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="215" keyframe="0" outside="0" occluded="0" xtl="806.67" ytl="690.56" xbr="856.57" ybr="812.55" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="216" keyframe="0" outside="0" occluded="0" xtl="806.67" ytl="688.58" xbr="856.57" ybr="813.93" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="217" keyframe="0" outside="0" occluded="0" xtl="806.67" ytl="686.60" xbr="856.57" ybr="815.32" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="218" keyframe="0" outside="0" occluded="0" xtl="806.67" ytl="684.61" xbr="856.57" ybr="816.71" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="219" keyframe="1" outside="0" occluded="0" xtl="806.67" ytl="682.63" xbr="856.57" ybr="818.10" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="220" keyframe="0" outside="0" occluded="0" xtl="806.58" ytl="682.63" xbr="856.75" ybr="818.99" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="221" keyframe="0" outside="0" occluded="0" xtl="806.50" ytl="682.63" xbr="856.93" ybr="819.88" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="222" keyframe="0" outside="0" occluded="0" xtl="806.41" ytl="682.63" xbr="857.10" ybr="820.77" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="223" keyframe="0" outside="0" occluded="0" xtl="806.32" ytl="682.63" xbr="857.28" ybr="821.66" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="224" keyframe="0" outside="0" occluded="0" xtl="806.23" ytl="682.63" xbr="857.46" ybr="822.55" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="225" keyframe="0" outside="0" occluded="0" xtl="806.14" ytl="682.63" xbr="857.63" ybr="823.44" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="226" keyframe="0" outside="0" occluded="0" xtl="806.05" ytl="682.63" xbr="857.81" ybr="824.33" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="227" keyframe="0" outside="0" occluded="0" xtl="805.96" ytl="682.63" xbr="857.98" ybr="825.22" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="228" keyframe="0" outside="0" occluded="0" xtl="805.87" ytl="682.63" xbr="858.16" ybr="826.11" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="229" keyframe="0" outside="0" occluded="0" xtl="805.78" ytl="682.63" xbr="858.34" ybr="827.00" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="230" keyframe="0" outside="0" occluded="0" xtl="805.69" ytl="682.63" xbr="858.51" ybr="827.89" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="231" keyframe="0" outside="0" occluded="0" xtl="805.61" ytl="682.63" xbr="858.69" ybr="828.78" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="232" keyframe="0" outside="0" occluded="0" xtl="805.52" ytl="682.63" xbr="858.87" ybr="829.67" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="233" keyframe="0" outside="0" occluded="0" xtl="805.43" ytl="682.63" xbr="859.04" ybr="830.56" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="234" keyframe="0" outside="0" occluded="0" xtl="805.34" ytl="682.63" xbr="859.22" ybr="831.45" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="235" keyframe="0" outside="0" occluded="0" xtl="805.25" ytl="682.63" xbr="859.39" ybr="832.34" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="236" keyframe="0" outside="0" occluded="0" xtl="805.16" ytl="682.63" xbr="859.57" ybr="833.23" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="237" keyframe="0" outside="0" occluded="0" xtl="805.07" ytl="682.63" xbr="859.75" ybr="834.12" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="238" keyframe="0" outside="0" occluded="0" xtl="804.98" ytl="682.63" xbr="859.92" ybr="835.01" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="239" keyframe="1" outside="0" occluded="0" xtl="804.89" ytl="682.63" xbr="860.10" ybr="835.90" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="240" keyframe="0" outside="0" occluded="0" xtl="803.25" ytl="682.09" xbr="859.14" ybr="837.13" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="241" keyframe="0" outside="0" occluded="0" xtl="801.60" ytl="681.54" xbr="858.18" ybr="838.36" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="242" keyframe="0" outside="0" occluded="0" xtl="799.96" ytl="680.99" xbr="857.22" ybr="839.59" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="243" keyframe="0" outside="0" occluded="0" xtl="798.31" ytl="680.44" xbr="856.25" ybr="840.82" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="244" keyframe="0" outside="0" occluded="0" xtl="796.67" ytl="679.89" xbr="855.29" ybr="842.05" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="245" keyframe="0" outside="0" occluded="0" xtl="795.02" ytl="679.34" xbr="854.33" ybr="843.28" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="246" keyframe="0" outside="0" occluded="0" xtl="793.38" ytl="678.80" xbr="853.37" ybr="844.52" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="247" keyframe="0" outside="0" occluded="0" xtl="791.73" ytl="678.25" xbr="852.41" ybr="845.75" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="248" keyframe="0" outside="0" occluded="0" xtl="790.09" ytl="677.70" xbr="851.45" ybr="846.98" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="249" keyframe="0" outside="0" occluded="0" xtl="788.44" ytl="677.15" xbr="850.48" ybr="848.21" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="250" keyframe="0" outside="0" occluded="0" xtl="786.80" ytl="676.60" xbr="849.52" ybr="849.44" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="251" keyframe="0" outside="0" occluded="0" xtl="785.15" ytl="676.05" xbr="848.56" ybr="850.67" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="252" keyframe="1" outside="0" occluded="0" xtl="783.51" ytl="675.51" xbr="847.60" ybr="851.90" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="253" keyframe="0" outside="0" occluded="0" xtl="779.62" ytl="674.70" xbr="844.36" ybr="853.52" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="254" keyframe="0" outside="0" occluded="0" xtl="775.73" ytl="673.89" xbr="841.13" ybr="855.14" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="255" keyframe="0" outside="0" occluded="0" xtl="771.84" ytl="673.08" xbr="837.89" ybr="856.75" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="256" keyframe="0" outside="0" occluded="0" xtl="767.95" ytl="672.27" xbr="834.65" ybr="858.37" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="257" keyframe="0" outside="0" occluded="0" xtl="764.06" ytl="671.46" xbr="831.42" ybr="859.99" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="258" keyframe="0" outside="0" occluded="0" xtl="760.18" ytl="670.65" xbr="828.18" ybr="861.61" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="259" keyframe="0" outside="0" occluded="0" xtl="756.29" ytl="669.84" xbr="824.95" ybr="863.23" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="260" keyframe="0" outside="0" occluded="0" xtl="752.40" ytl="669.03" xbr="821.71" ybr="864.85" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="261" keyframe="0" outside="0" occluded="0" xtl="748.51" ytl="668.21" xbr="818.47" ybr="866.46" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="262" keyframe="0" outside="0" occluded="0" xtl="744.62" ytl="667.40" xbr="815.24" ybr="868.08" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="263" keyframe="1" outside="0" occluded="0" xtl="740.73" ytl="666.59" xbr="812.00" ybr="869.70" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="264" keyframe="0" outside="0" occluded="0" xtl="735.16" ytl="666.59" xbr="807.99" ybr="871.26" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="265" keyframe="0" outside="0" occluded="0" xtl="729.59" ytl="666.59" xbr="803.98" ybr="872.83" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="266" keyframe="0" outside="0" occluded="0" xtl="724.03" ytl="666.59" xbr="799.96" ybr="874.39" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="267" keyframe="0" outside="0" occluded="0" xtl="718.46" ytl="666.59" xbr="795.95" ybr="875.95" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="268" keyframe="0" outside="0" occluded="0" xtl="712.89" ytl="666.59" xbr="791.94" ybr="877.51" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="269" keyframe="0" outside="0" occluded="0" xtl="707.32" ytl="666.59" xbr="787.93" ybr="879.08" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="270" keyframe="0" outside="0" occluded="0" xtl="701.75" ytl="666.59" xbr="783.91" ybr="880.64" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="271" keyframe="1" outside="0" occluded="0" xtl="696.18" ytl="666.59" xbr="779.90" ybr="882.20" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="272" keyframe="0" outside="0" occluded="0" xtl="689.94" ytl="665.70" xbr="775.73" ybr="884.58" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="273" keyframe="0" outside="0" occluded="0" xtl="683.70" ytl="664.81" xbr="771.57" ybr="886.97" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="274" keyframe="0" outside="0" occluded="0" xtl="677.47" ytl="663.92" xbr="767.40" ybr="889.35" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="275" keyframe="0" outside="0" occluded="0" xtl="671.23" ytl="663.03" xbr="763.23" ybr="891.73" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="276" keyframe="0" outside="0" occluded="0" xtl="664.99" ytl="662.14" xbr="759.07" ybr="894.12" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="277" keyframe="1" outside="0" occluded="0" xtl="658.75" ytl="661.25" xbr="754.90" ybr="896.50" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="278" keyframe="0" outside="0" occluded="0" xtl="647.30" ytl="659.47" xbr="747.26" ybr="899.81" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="279" keyframe="0" outside="0" occluded="0" xtl="635.84" ytl="657.68" xbr="739.61" ybr="903.13" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="280" keyframe="0" outside="0" occluded="0" xtl="624.38" ytl="655.90" xbr="731.97" ybr="906.44" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="281" keyframe="0" outside="0" occluded="0" xtl="612.93" ytl="654.12" xbr="724.33" ybr="909.76" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="282" keyframe="0" outside="0" occluded="0" xtl="601.47" ytl="652.34" xbr="716.69" ybr="913.07" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="283" keyframe="0" outside="0" occluded="0" xtl="590.01" ytl="650.56" xbr="709.04" ybr="916.39" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="284" keyframe="1" outside="0" occluded="0" xtl="578.56" ytl="648.77" xbr="701.40" ybr="919.70" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="285" keyframe="0" outside="0" occluded="0" xtl="567.15" ytl="646.63" xbr="689.99" ybr="922.20" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="286" keyframe="0" outside="0" occluded="0" xtl="555.74" ytl="644.50" xbr="678.59" ybr="924.70" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="287" keyframe="0" outside="0" occluded="0" xtl="544.34" ytl="642.36" xbr="667.18" ybr="927.20" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="288" keyframe="0" outside="0" occluded="0" xtl="532.93" ytl="640.22" xbr="655.78" ybr="929.70" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="289" keyframe="1" outside="0" occluded="0" xtl="521.53" ytl="638.08" xbr="644.37" ybr="932.20" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="290" keyframe="0" outside="0" occluded="0" xtl="505.49" ytl="635.23" xbr="631.18" ybr="936.84" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="291" keyframe="0" outside="0" occluded="0" xtl="489.45" ytl="632.38" xbr="617.98" ybr="941.48" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="292" keyframe="0" outside="0" occluded="0" xtl="473.41" ytl="629.53" xbr="604.79" ybr="946.12" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="293" keyframe="0" outside="0" occluded="0" xtl="457.37" ytl="626.67" xbr="591.59" ybr="950.76" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="294" keyframe="1" outside="0" occluded="0" xtl="441.33" ytl="623.82" xbr="578.40" ybr="955.40" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="295" keyframe="0" outside="0" occluded="0" xtl="419.94" ytl="623.11" xbr="562.72" ybr="959.68" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="296" keyframe="0" outside="0" occluded="0" xtl="398.55" ytl="622.40" xbr="547.04" ybr="963.96" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="297" keyframe="0" outside="0" occluded="0" xtl="377.17" ytl="621.68" xbr="531.36" ybr="968.24" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="298" keyframe="0" outside="0" occluded="0" xtl="355.78" ytl="620.97" xbr="515.68" ybr="972.52" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="299" keyframe="1" outside="0" occluded="0" xtl="334.40" ytl="620.26" xbr="500.00" ybr="976.80" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="300" keyframe="0" outside="0" occluded="0" xtl="309.45" ytl="613.13" xbr="478.18" ybr="983.93" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="301" keyframe="0" outside="0" occluded="0" xtl="284.50" ytl="606.00" xbr="456.35" ybr="991.05" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="302" keyframe="0" outside="0" occluded="0" xtl="259.55" ytl="598.87" xbr="434.53" ybr="998.18" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="303" keyframe="1" outside="0" occluded="0" xtl="234.59" ytl="591.74" xbr="412.70" ybr="1005.30" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="304" keyframe="0" outside="0" occluded="0" xtl="202.87" ytl="586.40" xbr="381.34" ybr="1003.88" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="305" keyframe="0" outside="0" occluded="0" xtl="171.15" ytl="581.05" xbr="349.98" ybr="1002.46" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="306" keyframe="0" outside="0" occluded="0" xtl="139.43" ytl="575.70" xbr="318.62" ybr="1001.04" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="307" keyframe="0" outside="0" occluded="0" xtl="107.70" ytl="570.36" xbr="287.26" ybr="999.62" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="308" keyframe="1" outside="0" occluded="0" xtl="75.98" ytl="565.01" xbr="255.90" ybr="998.20" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="309" keyframe="0" outside="0" occluded="0" xtl="50.65" ytl="565.01" xbr="230.36" ybr="998.20" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="310" keyframe="0" outside="0" occluded="0" xtl="25.33" ytl="565.01" xbr="204.81" ybr="998.20" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="311" keyframe="1" outside="0" occluded="0" xtl="0.00" ytl="565.01" xbr="179.27" ybr="998.20" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="312" keyframe="0" outside="0" occluded="0" xtl="0.00" ytl="565.01" xbr="179.27" ybr="998.20" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+    <box frame="313" keyframe="1" outside="1" occluded="0" xtl="0.00" ytl="565.01" xbr="179.27" ybr="998.20" z_order="0">
+      <attribute name="moving status">standing</attribute>
+      <attribute name="Cross">not crossing</attribute>
+    </box>
+  </track>
+</annotations>

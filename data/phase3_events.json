@@ -1,0 +1,270 @@
+{
+  "session": {
+    "video_path": "data/people-walking.mp4",
+    "model": "yolov8n.pt",
+    "tracker": "botsort.yaml",
+    "source_fps": 25.0,
+    "resolution": "1920x1080",
+    "frames_processed": 341,
+    "avg_processing_fps": 16.44,
+    "camera_id": "camera_01",
+    "counting_line_y": 540,
+    "deadband": 10,
+    "entry_direction": "TOP_TO_BOTTOM",
+    "exit_direction": "BOTTOM_TO_TOP"
+  },
+  "events": [
+    {
+      "event_id": "E0001",
+      "event_type": "EXIT",
+      "track_id": "P07",
+      "tracker_id": 7,
+      "frame_number": 21,
+      "timestamp": 0.84,
+      "direction": "BOTTOM_TO_TOP",
+      "reference_point": [
+        782,
+        527
+      ],
+      "camera": "camera_01"
+    },
+    {
+      "event_id": "E0002",
+      "event_type": "ENTRY",
+      "track_id": "P02",
+      "tracker_id": 2,
+      "frame_number": 22,
+      "timestamp": 0.88,
+      "direction": "TOP_TO_BOTTOM",
+      "reference_point": [
+        1519,
+        558
+      ],
+      "camera": "camera_01"
+    },
+    {
+      "event_id": "E0003",
+      "event_type": "EXIT",
+      "track_id": "P35",
+      "tracker_id": 37,
+      "frame_number": 37,
+      "timestamp": 1.48,
+      "direction": "BOTTOM_TO_TOP",
+      "reference_point": [
+        1186,
+        526
+      ],
+      "camera": "camera_01"
+    },
+    {
+      "event_id": "E0004",
+      "event_type": "ENTRY",
+      "track_id": "P14",
+      "tracker_id": 14,
+      "frame_number": 65,
+      "timestamp": 2.6,
+      "direction": "TOP_TO_BOTTOM",
+      "reference_point": [
+        611,
+        552
+      ],
+      "camera": "camera_01"
+    },
+    {
+      "event_id": "E0005",
+      "event_type": "EXIT",
+      "track_id": "P04",
+      "tracker_id": 4,
+      "frame_number": 67,
+      "timestamp": 2.68,
+      "direction": "BOTTOM_TO_TOP",
+      "reference_point": [
+        720,
+        528
+      ],
+      "camera": "camera_01"
+    },
+    {
+      "event_id": "E0006",
+      "event_type": "EXIT",
+      "track_id": "P32",
+      "tracker_id": 32,
+      "frame_number": 97,
+      "timestamp": 3.88,
+      "direction": "BOTTOM_TO_TOP",
+      "reference_point": [
+        1676,
+        525
+      ],
+      "camera": "camera_01"
+    },
+    {
+      "event_id": "E0007",
+      "event_type": "ENTRY",
+      "track_id": "P26",
+      "tracker_id": 26,
+      "frame_number": 105,
+      "timestamp": 4.2,
+      "direction": "TOP_TO_BOTTOM",
+      "reference_point": [
+        1883,
+        556
+      ],
+      "camera": "camera_01"
+    },
+    {
+      "event_id": "E0008",
+      "event_type": "ENTRY",
+      "track_id": "P18",
+      "tracker_id": 18,
+      "frame_number": 106,
+      "timestamp": 4.24,
+      "direction": "TOP_TO_BOTTOM",
+      "reference_point": [
+        943,
+        553
+      ],
+      "camera": "camera_01"
+    },
+    {
+      "event_id": "E0009",
+      "event_type": "ENTRY",
+      "track_id": "P31",
+      "tracker_id": 31,
+      "frame_number": 117,
+      "timestamp": 4.68,
+      "direction": "TOP_TO_BOTTOM",
+      "reference_point": [
+        584,
+        554
+      ],
+      "camera": "camera_01"
+    },
+    {
+      "event_id": "E0010",
+      "event_type": "EXIT",
+      "track_id": "P05",
+      "tracker_id": 5,
+      "frame_number": 137,
+      "timestamp": 5.48,
+      "direction": "BOTTOM_TO_TOP",
+      "reference_point": [
+        1095,
+        525
+      ],
+      "camera": "camera_01"
+    },
+    {
+      "event_id": "E0011",
+      "event_type": "ENTRY",
+      "track_id": "P27",
+      "tracker_id": 27,
+      "frame_number": 144,
+      "timestamp": 5.76,
+      "direction": "TOP_TO_BOTTOM",
+      "reference_point": [
+        1821,
+        552
+      ],
+      "camera": "camera_01"
+    },
+    {
+      "event_id": "E0012",
+      "event_type": "ENTRY",
+      "track_id": "P29",
+      "tracker_id": 29,
+      "frame_number": 150,
+      "timestamp": 6.0,
+      "direction": "TOP_TO_BOTTOM",
+      "reference_point": [
+        972,
+        552
+      ],
+      "camera": "camera_01"
+    },
+    {
+      "event_id": "E0013",
+      "event_type": "EXIT",
+      "track_id": "P37",
+      "tracker_id": 42,
+      "frame_number": 183,
+      "timestamp": 7.32,
+      "direction": "BOTTOM_TO_TOP",
+      "reference_point": [
+        1056,
+        529
+      ],
+      "camera": "camera_01"
+    },
+    {
+      "event_id": "E0014",
+      "event_type": "ENTRY",
+      "track_id": "P12",
+      "tracker_id": 12,
+      "frame_number": 188,
+      "timestamp": 7.52,
+      "direction": "TOP_TO_BOTTOM",
+      "reference_point": [
+        1197,
+        556
+      ],
+      "camera": "camera_01"
+    },
+    {
+      "event_id": "E0015",
+      "event_type": "EXIT",
+      "track_id": "P43",
+      "tracker_id": 52,
+      "frame_number": 193,
+      "timestamp": 7.72,
+      "direction": "BOTTOM_TO_TOP",
+      "reference_point": [
+        1279,
+        526
+      ],
+      "camera": "camera_01"
+    },
+    {
+      "event_id": "E0016",
+      "event_type": "EXIT",
+      "track_id": "P45",
+      "tracker_id": 55,
+      "frame_number": 224,
+      "timestamp": 8.96,
+      "direction": "BOTTOM_TO_TOP",
+      "reference_point": [
+        730,
+        529
+      ],
+      "camera": "camera_01"
+    },
+    {
+      "event_id": "E0017",
+      "event_type": "ENTRY",
+      "track_id": "P13",
+      "tracker_id": 13,
+      "frame_number": 240,
+      "timestamp": 9.6,
+      "direction": "TOP_TO_BOTTOM",
+      "reference_point": [
+        1809,
+        553
+      ],
+      "camera": "camera_01"
+    },
+    {
+      "event_id": "E0018",
+      "event_type": "ENTRY",
+      "track_id": "P39",
+      "tracker_id": 47,
+      "frame_number": 263,
+      "timestamp": 10.52,
+      "direction": "TOP_TO_BOTTOM",
+      "reference_point": [
+        953,
+        551
+      ],
+      "camera": "camera_01"
+    }
+  ]
+}

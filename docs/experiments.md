@@ -153,6 +153,251 @@ annotations for this footage, so no such metric is claimed.
 
 ---
 
+## Phase 3 — Entry/exit counting, occupancy and visit sessions
+
+Date: 2026-09-16
+Code: `src/counting.py`, `src/sessions.py`, wired into `src/track_people.py`
+Same hardware/detector as the Phase 2 runs above.
+
+### Unit tests (no video, no YOLO)
+
+```
+.\venv\Scripts\python.exe -m unittest discover -s tests -v
+Ran 43 tests in 0.005s -- OK
+```
+
+Covers all ten scenarios from the Phase 3 spec plus config validation,
+first-sighting handling and JSON serialisation.
+
+### Test 1 — `data/people-walking.mp4`
+
+| Item | Value |
+| --- | --- |
+| Video | `data/people-walking.mp4` |
+| Resolution | 1920x1080 |
+| Source FPS | 25.0 |
+| Frames | 341 |
+| Counting line | y = 540 (mid-frame default) |
+| Deadband | +/- 10 px |
+| Entry direction | TOP_TO_BOTTOM |
+| Exit direction | BOTTOM_TO_TOP |
+
+Measured:
+
+| Metric | Value |
+| --- | --- |
+| Crossing events | 18 |
+| Total entries | 10 |
+| Total exits | 8 |
+| Final occupancy | 4 |
+| Unmatched exits | 2 |
+| Completed sessions | **0** |
+| Open sessions | 18 (3 OPEN_AT_END, 7 OPEN_TRACK_LOST, 8 UNMATCHED_EXIT) |
+
+Identical across two consecutive runs.
+
+**These numbers are geometrically correct and operationally meaningless, and
+that distinction matters more than the numbers.** The clip is a transit
+concourse, not a doorway: people walk through in both directions and never
+return. A horizontal line across it measures *line traversals*, not entries to
+a bounded space. Zero completed sessions is the proof — nobody crossed
+downward and later crossed back up, because there is nothing to enter.
+
+Occupancy of 4 should therefore be read as "10 downward traversals minus 6
+upward ones that had a matching prior traversal", not as "4 people are in the
+room".
+
+### Test 2 — `data/test_single_person.mp4` (manual verification)
+
+The derived single-person crop from Phase 2 (600x680, 341 frames) was used to
+verify the mechanism by eye, because with few people the events can actually be
+checked against the pixels.
+
+| Metric | Value |
+| --- | --- |
+| Counting line | y = 340 (mid-frame default) |
+| Crossing events | 3 (1 EXIT, 2 ENTRY) |
+| Final occupancy | 2 |
+
+**Hand-verified event E0002** (`P05`, ENTRY, frame 187, t=7.48 s,
+TOP_TO_BOTTOM, reference point [460, 354]):
+
+- frame 183: the person's feet are above the line, HUD reads `Entries: 0`
+- frame 188: the feet are below the line, the `P05 -> ENTRY` banner is drawn,
+  HUD reads `Entries: 1`
+
+That is one event for one traversal, fired on the correct frame, at the
+person's feet. This is a single hand-checked case, not an accuracy measurement.
+
+### Performance: Phase 2 vs Phase 3
+
+Same video, same settings, alternating runs. `--no-counting` gives the Phase 2
+baseline from the identical code path.
+
+| Run | Phase 2 (`--no-counting`) | Phase 3 (counting on) |
+| --- | --- | --- |
+| 1 | 11.90 fps | 12.12 fps |
+| 2 | 12.84 fps | 12.33 fps |
+| mean | **12.37 fps** | **12.23 fps** |
+
+Difference: about **1 %**, smaller than the run-to-run variation on this
+machine. Phase 3 adds a handful of integer comparisons per track per frame
+against a YOLO forward pass, so no measurable cost is the expected result. No
+optimisation was attempted or needed.
+
+**Regression check:** both configurations produced exactly 88 unique track IDs,
+confirming the counting layer does not perturb tracking.
+
+### Observed edge cases (from the real runs, not constructed)
+
+| Case | Occurrences | Handling |
+| --- | --- | --- |
+| EXIT with no prior ENTRY | 8 sessions | `UNMATCHED_EXIT`, no entry time invented, occupancy clamped at 0 and `unmatched_exits` incremented |
+| ENTRY then track terminated | 7 sessions | `OPEN_TRACK_LOST`, no exit timestamp, occupancy **not** decremented |
+| Video ended mid-visit | 3 sessions | `OPEN_AT_END`, no exit timestamp |
+| Line hovering | not observed as events | absorbed by the deadband before reaching the event layer |
+
+The 8 unmatched exits are exactly what a thoroughfare should produce: people
+who were already "inside" (below the line) when the clip started and then
+walked upward across it.
+
+### False crossings
+
+No phantom repeat-crossings were observed — no track produced a burst of
+same-direction events, which is the signature the deadband exists to prevent.
+This is an observation over 341 frames, not a guarantee.
+
+**Counted separately and honestly:** some of the 18 events are people merely
+walking past on the concourse. Whether an event is "false" depends on an
+intent the geometry cannot see, which is why the honest statement is that the
+line was traversed 18 times, not that 10 people entered anything.
+
+### No accuracy metrics are claimed
+
+There is **no ground-truth annotation** for this footage: no labelled list of
+who crossed when. Precision, recall and counting accuracy are therefore not
+computed and not estimated. The one verified event above is a spot check.
+
+To obtain real accuracy figures, a purpose-recorded clip is needed — see
+"Recording a proper counting test video" in `README.md`.
+
+### Test 3 — IPID dataset (`data/datasets/ipid/clips/`)
+
+12 clips, all 1920x1080 @ 29.97 fps. Run through the normal pipeline with no
+reference to the XML annotations, as intended — inference does not depend on
+ground truth.
+
+| Clip | Frames | Line | Proc. FPS | Track IDs | Entries | Exits | Events |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| clip_002 | 403 | 540 (default) | 16.03 | 13 | 0 | 0 | 0 |
+| clip_002 | 403 | 900 | 16.76 | 13 | 2 | 0 | 2 |
+| clip_022 | 364 | 900 | 13.23 | 58 | 10 | 0 | 10 |
+| clip_029 | 236 | 900 | 14.56 | 23 | 0 | 0 | 0 |
+
+**Detection: works.** People are found and tracked in all three clips.
+**Tracking: works.** Persistent IDs are produced throughout.
+**Line crossing: configurable and functioning.** Moving the line from 540 to
+900 changed clip_002 from 0 events to 2, confirming the geometry is data, not
+code.
+
+**The scene requires a different line position — and more importantly, it is
+the wrong kind of scene entirely.**
+
+These are **dashcam clips recorded from a moving vehicle**, not fixed CCTV.
+Two consequences, both fatal to entry/exit semantics:
+
+1. At the default mid-frame line (y=540) the line sits in sky and treetops.
+   No pedestrian's feet ever reach it, hence 0 events. Pedestrians in these
+   clips have their reference points around y=800–1000, so a usable line for
+   this footage is far lower.
+2. **A fixed counting line assumes a fixed camera.** When the camera moves, the
+   whole scene flows through image space, and a stationary pedestrian "crosses"
+   a line that is itself moving over the ground. The counts below are artefacts
+   of ego-motion.
+
+The evidence is in the direction distribution: clip_022 produced **10 entries
+and 0 exits** — every single crossing in the same direction, which is what you
+get when the camera advances and the entire scene sweeps downward through the
+frame. Three of those "entries" (P09, P10, P16) fired within two frames of each
+other (frames 63–64): one camera movement, three pedestrians swept across the
+line simultaneously. No doorway behaves like that.
+
+clip_022 also produced 58 track IDs in 364 frames, far more than the scene
+contains — ego-motion plus a busy roadside is hard on the tracker, and
+BoT-SORT's camera-motion compensation is not enough to hold IDs here.
+
+**Conclusion: line-crossing logic verified as functioning; IPID is not suitable
+for semantic entry/exit or occupancy validation.** No accuracy claim is made
+from these clips, and their counts should not be read as visitor numbers.
+
+For reference, `clip_002.xml` contains 8 annotated `person` tracks while the
+pipeline produced 13 track IDs. That is a raw observation, **not an accuracy
+metric** — no detection-to-ground-truth association was performed, and the
+XML plays no part in inference. Building that comparison properly is a separate
+evaluation pipeline, deliberately out of scope here.
+
+### Camera configuration and first-sighting policy
+
+Added after the initial Phase 3 implementation:
+
+- `config/cameras/camera_01.json` holds the geometry as data; loaded with
+  `--camera-config`. Verified end-to-end: running `people-walking.mp4` via
+  `--video ... --camera-config config/cameras/camera_01.json` reproduced the
+  same 18 events / 10 entries / 8 exits / occupancy 4 as the equivalent CLI
+  flags, and printed `Camera: camera_01  line: y=540`.
+- `camera_id` now appears in every event and in the JSON session header.
+- The first-sighting policy is now an explicit named state:
+  `INITIAL_VISIBLE` → `OBSERVED_CROSSING`. Behaviour is unchanged (a first
+  sighting was never counted) — it is now inspectable rather than implied.
+
+### Unit tests after these additions
+
+```
+.\venv\Scripts\python.exe -m unittest discover -s tests -v
+Ran 59 tests in 0.041s -- OK
+```
+
+16 new tests cover config loading, unknown-key rejection, round-tripping,
+`camera_id` propagation, and the first-sighting states.
+
+### Performance: Phase 2 vs Phase 3 (re-measured after the config work)
+
+| Run | Phase 2 (`--no-counting`) | Phase 3 (`--camera-config`) |
+| --- | --- | --- |
+| 1 | 15.69 fps | 16.03 fps |
+| 2 | 16.84 fps | 16.13 fps |
+| mean | **16.27 fps** | **16.08 fps** |
+
+Difference ~1.2 %, within run-to-run variation — consistent with the earlier
+measurement. (Absolute FPS is higher than the first Phase 3 benchmark because
+the machine was less loaded, which is exactly why only paired, alternating runs
+are compared.)
+
+Regression: 88 unique track IDs with counting on and off, unchanged from
+Phase 2.
+
+### Limitations
+
+- The sample video has no doorway geometry, so it cannot validate entry/exit
+  semantics, only the crossing mechanism.
+- **A fixed counting line assumes a fixed camera.** On moving-camera footage
+  (the IPID clips) crossings are generated by ego-motion and are meaningless.
+  Nothing in the code detects this condition — it is the operator's job to
+  point this system at a static camera.
+- A fixed-pixel deadband ignores perspective: 10 px near the camera is a much
+  shorter real distance than 10 px at the far end of the hall.
+- A horizontal line only. Angled or polygonal boundaries are not implemented.
+- Occupancy errors accumulate: a single missed exit inflates the count for the
+  remainder of the run.
+- People already inside the space when the video starts are invisible to an
+  event-derived count — the baseline is assumed to be zero.
+- Detector misses (distant people, from Phase 2) silently become counting
+  misses; a person never detected at the line is never counted.
+- Cosmetic: when two people cross simultaneously and stand adjacent, their
+  `-> ENTRY` banners can overlap and become hard to read.
+
+---
+
 ## Phase 1 — Person detection
 
 Recorded retroactively; see `CHANGELOG.md` for the original notes. Phase 1 ran
